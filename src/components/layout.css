@@ -5,6 +5,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -43,7 +44,13 @@ template {
 }
 a {
   background-color: transparent;
-  -webkit-text-decoration-skip: objects;
+  text-decoration: none;
+  color: inherit;
+  /* -webkit-text-decoration-skip: objects; */
+}
+
+a:hover {
+  color: #ff69b4;
 }
 
 #summary {
@@ -259,37 +266,38 @@ body {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
+#profilepic {
+  max-width: 400px;
+  max-height: 500px;
+}
 img {
-  max-width: 100%;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
+  max-width: 70%;
+  max-height: 70%;
+  border-radius: 50%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  box-shadow: 0 0 0 7px #ff69b4;
 }
 
 h1 {
   margin-left: 0;
-  text-align: center;
   margin-right: 0;
-  letter-spacing: 1.5em;
+  letter-spacing: 0.5em;
   margin-top: 0;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: inherit;
   font-family: "Nunito", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 3rem;
   line-height: 1.1;
-  color: white;
+  color: #ff69b4;
 }
 h2 {
   text-align: center;
@@ -635,7 +643,7 @@ th {
   padding-left: 0.96667rem;
   padding-right: 0.96667rem;
   padding-top: 0.725rem;
-  padding-bottom: calc(0.725rem - 1px);
+  /* padding-bottom: calc(0.725rem - 1px); */
 }
 th:first-child,
 td:first-child {
@@ -672,9 +680,21 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
   html {
     font-size: 100%;
+  }
+  #about {
+    flex-direction: column;
+  }
+
+  img {
+    max-width: 80%;
+    max-height: 80%;
+  }
+
+  h1 {
+    font-size: 2em;
   }
 }
 
@@ -691,9 +711,6 @@ pre tt:after {
 .menu a {
   color: #ff69b4;
   text-decoration: none;
-}
-.menu a:hover {
-  color: #f1e8d2;
 }
 
 .menu li {
@@ -720,5 +737,28 @@ pre tt:after {
 }
 
 .menu li:hover {
-  box-shadow: 0 0 0 7px #fff;
+  box-shadow: 0 0 0 7px #ff69b4;
+  background-color: #fff;
+  color: #ff69b4;
+  font-weight: bold;
+}
+
+.contact {
+  color: white;
+  text-align: center;
+  margin-top: 5em;
+}
+
+#about {
+  display: flex;
+  width: 75vw;
+}
+
+.left {
+  flex: 1;
+}
+
+.right {
+  flex: 2;
+  padding-right: 3rem;
 }
