@@ -689,12 +689,23 @@ pre tt:after {
   }
 
   img {
+    margin-top: 1em;
     max-width: 80%;
     max-height: 80%;
   }
-
   h1 {
     font-size: 2em;
+  }
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .right {
+    width: 100vw;
+    padding: 0;
+    margin-top: 1.5em;
+    margin: 0;
   }
 }
 
@@ -761,4 +772,15 @@ pre tt:after {
 .right {
   flex: 2;
   padding-right: 3rem;
+}
+
+.projectgrid {
+  display: grid;
+  justify-content: space-around;
+  text-align: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: minmax(50px, auto);
+  grid-gap: 2em;
+  padding: 1em;
+  padding-top: 2em;
 }

@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import AOS from "aos"
+// import AOS from "aos"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import IconButton from "@material-ui/core/IconButton"
@@ -15,9 +15,9 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 
 class IndexPage extends React.Component {
   render() {
-    AOS.init({
-      duration: 2000,
-    })
+    // AOS.init({
+    //   duration: 2000,
+    // })
     return (
       <Layout>
         <SEO
@@ -45,9 +45,9 @@ class IndexPage extends React.Component {
                 {" "}
                 <li>Resume</li>
               </a>
-              <Link to="/blog">
+              <Link to="/writing">
                 {" "}
-                <li>Blog</li>
+                <li>Writing</li>
               </Link>
             </ul>
           </div>
