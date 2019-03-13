@@ -2,17 +2,34 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { StaticQuery, graphql } from "gatsby"
 
-const Writing = () => (
-  <Layout>
-    <SEO title="Rebecca Chan - Writing" />
-    <div id="blog">
-      <h1>Writing</h1>
-      <p> This is a work in progress..</p>
+// const Writing = ({ data }) => {
+//   const { edges } = data.allMarkdownRemark
+//   return (
+//     <div>
+//       {edges.map(edge => {
+//         const { frontmatter } = edgenode
+//         return <div key={frontmatter.path}>{frontmatter.title}</div>
+//       })}
+//     </div>
+//   )
+// }
 
-      <Link to="/">{`<-Back`}</Link>
-    </div>
-  </Layout>
-)
+// export const query={graphql`
+// query HomepageQuery {
+//   allMarkdownRemark {
+//     sort: {order: DESC, fields: [frontmatter___date]}
+//     edges {
+//       node {
+//         frontmatter {
+//           title
+//           path
+//           date
+//         }
+//       }
+//     }
+//     }
+//   `}
 
-export default Writing
+// export default Writing
