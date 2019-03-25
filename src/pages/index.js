@@ -1,23 +1,19 @@
 import React from "react"
 import { Link } from "gatsby"
-// import AOS from "aos"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import IconButton from "@material-ui/core/IconButton"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faGithub } from "@fortawesome/free-brands-svg-icons"
 import {
   faLinkedin,
   faMedium,
   faTwitter,
+  faGithub,
 } from "@fortawesome/free-brands-svg-icons"
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 
 class IndexPage extends React.Component {
   render() {
-    // AOS.init({
-    //   duration: 2000,
-    // })
     return (
       <Layout>
         <SEO
@@ -92,6 +88,7 @@ class IndexPage extends React.Component {
             </IconButton>
           </a>
         </div>
+        <div id="fineprint">© Rebecca Chan 2019. Made with GatsbyJS</div>
       </Layout>
     )
   }

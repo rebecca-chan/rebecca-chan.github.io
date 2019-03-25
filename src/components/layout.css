@@ -18,7 +18,7 @@ figcaption,
 figure,
 footer,
 header,
-main,
+/* main, */
 menu,
 nav,
 section,
@@ -780,7 +780,24 @@ pre tt:after {
   text-align: center;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: minmax(50px, auto);
-  grid-gap: 2em;
-  padding: 1em;
+  grid-gap: 3em;
   padding-top: 2em;
+}
+
+#fineprint {
+  text-align: center;
+  font-size: 0.6em;
+  color: black;
+}
+
+#terra {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
