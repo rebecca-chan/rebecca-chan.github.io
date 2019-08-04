@@ -778,7 +778,7 @@ pre tt:after {
   display: grid;
   justify-content: space-around;
   text-align: center;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-template-rows: minmax(50px, auto);
   grid-gap: 3em;
   padding-top: 2em;

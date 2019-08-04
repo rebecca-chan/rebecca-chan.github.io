@@ -1,0 +1,17 @@
+path: "/2019-05-22"
+date: 2019-05-22
+title: "3 weeks into the job"
+tags: ['rebecca', 'javascript', 'bootcamp', 'development', 'software engineering']
+excerpt: "3 weeks into Annalect"
+
+I hadn't really had time to do anything since I adopted Terra. She's the sweetest pup on earth and I LOVE her. I figured the time between bootcamp and finding a new job would be the perfect time to adopt a puppy since I would be home to train her, but pups are needy. Needless to say, my technical interviews suffered. I can't blame anyone but myself, because I also know it takes a few failures for me to get serious.
+
+Thankfully, I was able to start a contract position with Annalect, the ad tech arm for Omnicom Media Group. I'm working on a B2B Insights dashboard that will provide clients analytics on their target audiences, their demographics and skills, and the type of content they've been reading. It's been a great experience so far since their stack is entirely different than what I had learned at Grace Hopper and it feels like an extension of bootcamp because everyone on my team is always trying new technology. The front end is primarily AngularJS + D3 and the backend is Flask. We also use PostGres + S3 and query with Athena and good ol' SQL.
+
+I don't really know how it happened, but these 3 weeks have been really productive and I've contributed a lot already. I felt like I understood the codebase pretty quickly even though we use dynamic api routing with Python classes. I was able to implement a lot of front end changes since I started. It took me 1-2 days to create a type-ahead search bar in D3. This week I implemented Linkedin OAuth and stored AES encrypted user tokens into a PostGres table which I'm happy about, because our app needs it and it has tripped up a lot of people on Stack Overflow. I'll have to post up a gist of that soon since the ones I've found are all with the previous version of Linkedin Oauth. I also pair programmed with my manager where we did "metaprogramming" and implemented a proxy for the new Intl Chrome API. I've also created a lot of UI improvements, adding tooltips, etc. I also learned that Recharts is basically the same thing as D3, except everything is imported as a React Component instead of using DOM selectors so that definitely helped me my first week.
+
+Sometimes I think back to Grace Hopper and I remember feeling like I didn't know what the heck I was doing and had no clue what was happening. But even in the few weeks after GH, despite being out of practice with React/Redux/Node, I managed to understand what the big picture more and more. Probably from watching a bunch of videos about random topics and doing coding challenges.
+
+Now that I'm working and putting Terra in daycare, I've also found myself a lot more productive in terms of my algo practice and data structures learning, things I'd been meaning to improve on. Now I really understand that the reason I was weak in my interviews is because I hadn't practiced implementation enough. I need to practice implementation repeatedly, whether it's writing it or typing it, without looking at answers. I was trying to learn so much that I resorted to watching videos in 2x speed or just glossing over answers to questions. When it came time to implement, it was like I had forgotten how to write Javascript.
+
+Anyway, I'll continue to keep this updated via markup until I figure out how to update this without manually deploying to github each time I post.

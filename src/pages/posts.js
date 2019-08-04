@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import { StaticQuery, graphql } from "gatsby"
 import TerraPic from "../components/TerraPic"
 
-const Writing = () => {
+const Posts = () => {
   // const { edges } = data.allMarkdownRemark
   return (
     <Layout>
@@ -48,4 +48,4 @@ const Writing = () => {
 //     }
 //   `}
 
-export default Writing
+export default Posts

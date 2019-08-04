@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import ProjectCard from "./project"
+import ProjectCard from "../components/project"
 
 const projects = [
   {
@@ -27,7 +27,7 @@ const projects = [
     longDesc:
       "talkwords uses Chrome's Speech Recognition tool WebSpeech to record speech in virtually any language. It then translates it with Google Translate API. Using the Speech Synthesis, you can play the translated recording with native pronunciation",
     title: "talkwords",
-    webURL: "",
+    webURL: "https://talkwords.herokuapp.com",
     youtubeURL:
       "https://www.fullstackacademy.com/hackathon-presentations/talkwords",
     gitURL: "https://github.com/rebecca-chan/live-translator",
@@ -73,15 +73,37 @@ const projects = [
   {
     label: "WWII Quiz App",
     image:
-      "https://cdn4.iconfinder.com/data/icons/jetflat-2-multimedia-vol-2/60/004_100_code_tag_brackets_coding_html_development-512.png",
+      "https://mk0brilliantmaptxoqs.kinstacdn.com/wp-content/uploads/World-Map-Antique-Art-Poster.jpg",
     id: "6",
     shortDesc: "WWII. Quiz app in Android",
     longDesc:
       "Quiz app on your WWII knowledge. Displays toast at the end with your results",
     title: "WWII Quiz App",
-    webURL: "https://rebecca-chan.github.io/video-cue-editor/",
-    youtubeURL: "",
-    gitURL: "https://github.com/rebecca-chan/video-cue-editor",
+    webURL: "",
+    youtubeURL: "https://youtu.be/8KHIUZNNthA",
+    gitURL: "https://github.com/rebecca-chan/WWIIQUIZ",
+  },
+  {
+    label: "Mars",
+    image:
+      "https://s3.amazonaws.com/poly-screenshots.angel.co/Project/79/1012467/ddd0c7ec30e680259e4c56e7176cef46-original.png",
+    id: "7",
+    shortDesc: "Gallery of satellite/rover images from Mars",
+    longDesc: "Pick a date, and look through images of Mars",
+    title: "mars",
+    webURL: "https://marzattack.herokuapp.com",
+    gitURL: "https://github.com/rebecca-chan/mars",
+  },
+  {
+    label: "ticker",
+    image:
+      "https://s3.amazonaws.com/poly-screenshots.angel.co/Project/79/1012467/ddd0c7ec30e680259e4c56e7176cef46-original.png",
+    id: "8",
+    shortDesc: "Trade on the market, without the risk",
+    longDesc: `Always wanted to know how you would do investing in the market? Ticker gives you $5000 virtual dollars to trade with and then keeps track of your favorite stocks' performance so you can decide if it's right for you.`,
+    title: "ticker",
+    webURL: "https://tickertock.herokuapp.com",
+    gitURL: "https://github.com/rebecca-chan/stocktracker",
   },
 ]
 

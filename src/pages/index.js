@@ -41,9 +41,9 @@ class IndexPage extends React.Component {
                 {" "}
                 <li>Resume</li>
               </a>
-              <Link to="/writing">
+              <Link to="/posts/">
                 {" "}
-                <li>Writing</li>
+                <li>Posts</li>
               </Link>
             </ul>
           </div>
