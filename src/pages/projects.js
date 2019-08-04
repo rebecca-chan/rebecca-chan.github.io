@@ -97,7 +97,7 @@ const projects = [
   {
     label: "ticker",
     image:
-      "https://s3.amazonaws.com/poly-screenshots.angel.co/Project/79/1012467/ddd0c7ec30e680259e4c56e7176cef46-original.png",
+      "https://s3.amazonaws.com/poly-screenshots.angel.co/Project/b9/1012469/7fc0db940661529d8736394e7616dc4e-original.png",
     id: "8",
     shortDesc: "Trade on the market, without the risk",
     longDesc: `Always wanted to know how you would do investing in the market? Ticker gives you $5000 virtual dollars to trade with and then keeps track of your favorite stocks' performance so you can decide if it's right for you.`,
